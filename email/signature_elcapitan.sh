@@ -1,6 +1,6 @@
 #! /bin/bash
 
-PLACEHOLDER=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 10 | head -n 1);
+PLACEHOLDER=$(openssl rand -hex 7);
 
 read -p "Create a new signature in Apple Mail, write inside only $PLACEHOLDER and save it, done?";
 killall Mail
@@ -12,5 +12,9 @@ read -p "Replace the HTML code inside <body> tag in the TextEdit window and save
 chflags uchg $SIG_FILE
 
 open -a Mail
+
+sleep 5
+
+chflags nouchg $SIG_FILE
 
 echo "Done.";
