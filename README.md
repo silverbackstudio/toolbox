@@ -10,6 +10,11 @@ Helper to setup a new HTML signature for Apple Mail.
 
 ### Usage (from Terminal)
 
+Quick (one time use):
+```bash
+bash <(curl -L https://git.io/sig-elcapitan)
+```
+Safe (multiple usages):
 ```bash
 curl -L https://git.io/sig-elcapitan > signature_elcapitan.sh
 chmod +x signature_elcapitan.sh
