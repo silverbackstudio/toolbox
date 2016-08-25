@@ -1,11 +1,12 @@
 Silverback Studio Toolbox
 =====================================
 Useful tools from www.silverbackstudio.it
----------------------------------------
 
-# Apple Mail HTML Email Signature Creator Script (El Capitan)
+1. [Apple Mail HTML Email Signature Creator Script (El Capitan)](#apple-mail-html-email-signature-creator-script-el-capitan)
 
-Useful script to setup a new HTML signature for Apple Mail.
+## Apple Mail HTML Email Signature Creator Script (El Capitan)
+
+Helper to setup a new HTML signature for Apple Mail.
 
 ### Usage (from Terminal)
 
